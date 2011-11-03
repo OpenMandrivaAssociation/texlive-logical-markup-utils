@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/logical-markup-utils
+# catalog-date 2009-11-09 23:05:00 +0100
+# catalog-license gpl3
+# catalog-version undef
 Name:		texlive-logical-markup-utils
 Version:	20091109
 Release:	1
@@ -42,6 +48,7 @@ options are american, british, german and polish.
 %doc %{_texmfdistdir}/doc/latex/logical-markup-utils/COPYING
 %doc %{_texmfdistdir}/doc/latex/logical-markup-utils/README
 %doc %{_texmfdistdir}/doc/latex/logical-markup-utils/TODO
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ options are american, british, german and polish.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
