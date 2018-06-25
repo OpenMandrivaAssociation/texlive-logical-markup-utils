@@ -5,7 +5,7 @@
 # catalog-license gpl3
 # catalog-version undef
 Name:		texlive-logical-markup-utils
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Packages for language-dependent inline quotes and dashes
 Group:		Publishing
