@@ -1,6 +1,6 @@
 Name:		texlive-logical-markup-utils
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Packages for language-dependent inline quotes and dashes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/logical-markup-utils
