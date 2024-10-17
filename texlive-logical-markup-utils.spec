@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Packages for language-dependent inline quotes and dashes
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/logical-markup-utils
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/logical-markup-utils
 License:	GPL3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/logical-markup-utils.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/logical-markup-utils.doc.r%{version}.tar.xz
